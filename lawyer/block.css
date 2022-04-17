@@ -1,0 +1,104 @@
+
+body {
+    background-color: blue;
+}
+    
+
+
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.inner_container{
+    width: 50%;
+    position: relative;
+}
+.inner_container.flash{
+    animation: fade .4s linear;
+}
+.img_box{
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    position: absolute;
+    
+}
+
+.img_box:nth-child(1){
+    top: 50px;
+    left: -100px;
+}
+.img_box:nth-child(2){
+    top: 100px;
+    left: 100px;
+}
+.img_box:nth-child(3){
+    top: 200px;
+    left: -100px;
+}
+
+.about_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    
+}
+.fade {
+    animation: fade .4s linear;
+}
+
+@keyframes fade {
+    50%{
+        opacity: .5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.inner_container:last-child {
+    margin-top: 50px;
+}
+
+.about_title_sup {
+    font-size: 28px;
+    font-family:  Kyrial Display Pro;
+    opacity: .84;
+    color: #FFFFFF;
+    position: relative;
+    padding-left: 20%;
+    padding-top: 10px;
+}
+
+.about_title_sup::after {
+    content: '';
+    width: 15%;
+    height: 5px;
+    background-color: #F1A81D;
+    position: absolute;
+    top: calc(60% - 5px);
+    left: 0;
+}
+
+.about_title {
+    font-size: 60px;
+    font-family:  Kyrial Display Pro;
+    color: #FFFFFF;
+    line-height: 1;
+    padding-top: 10px;
+}
+
+.about_text {
+    opacity: .5;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
