@@ -195,19 +195,19 @@ carusel.addEventListener('mouseover', function(event){
 
 
 function changeFirst(){
-    firstImg.src = "file:///C:/Users/User/Desktop/www/lawyer/images/about/pexels-august-de-richelieu-4427614.jpg"
-    secondImg.src ="file:///C:/Users/User/Desktop/www/lawyer/images/about/pexels-august-de-richelieu-4427620.jpg"
-    thirdImg.src = "file:///C:/Users/User/Desktop/www/lawyer/images/about/pexels-august-de-richelieu-4427616.jpg"
+    firstImg.src = "images/about/pexels-august-de-richelieu-4427614.jpg"
+    secondImg.src ="images/about/pexels-august-de-richelieu-4427620.jpg"
+    thirdImg.src = "images/about/pexels-august-de-richelieu-4427616.jpg"
 }
 
 function changeSecond(){
-    firstImg.src = "file:///C:/Users/User/Desktop/www/lawyer/images/about/pexels-august-de-richelieu-4427620.jpg"
-    secondImg.src ="file:///C:/Users/User/Desktop/www/lawyer/images/about/pexels-august-de-richelieu-4427616.jpg"
-    thirdImg.src = "file:///C:/Users/User/Desktop/www/lawyer/images/about/pexels-august-de-richelieu-4427614.jpg"
+    firstImg.src = "images/about/pexels-august-de-richelieu-4427620.jpg"
+    secondImg.src ="images/about/pexels-august-de-richelieu-4427616.jpg"
+    thirdImg.src = "images/about/pexels-august-de-richelieu-4427614.jpg"
 }
 
 function changeThird(){
-    firstImg.src = "file:///C:/Users/User/Desktop/www/lawyer/images/about/pexels-august-de-richelieu-4427616.jpg"
-    secondImg.src ="file:///C:/Users/User/Desktop/www/lawyer/images/about/pexels-august-de-richelieu-4427614.jpg"
-    thirdImg.src = "file:///C:/Users/User/Desktop/www/lawyer/images/about/pexels-august-de-richelieu-4427620.jpg"
+    firstImg.src = "images/about/pexels-august-de-richelieu-4427616.jpg"
+    secondImg.src ="images/about/pexels-august-de-richelieu-4427614.jpg"
+    thirdImg.src = "images/about/pexels-august-de-richelieu-4427620.jpg"
 }
